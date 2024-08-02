@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zayBooks</title>
+    <!-- remix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- Header section starts -->
+<header class="header">
+    <nav class="navbar">
+      <img src="./imgs/illust-removebg-preview.png">
+      <a class="logo" href="">zayBooks</a>
+      <ul class="nav-list">
+        <li><a href="#Home" class="active">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Books">Books</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#cart"> <i class="fa-solid fa-shopping-cart"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+    <!-- Header section Ends -->
+
+      <!--Home section starts -->
+   <section class="Home" id="Home">
+    <div class="Home-content">
+      <h4>Greed to Read</h4>
+      <h1>zay<span>Books</span></h1>
+      <p>To all readers who loves to read and imagines there world in next level of imaginations<i class="fa-solid fa-book"></i>
+      <br><br>English and Urdu novels and Literatures are here!</p>
+    </div>
+    <div class="Home-img">
+      <img src="./imgs/home.jpg" alt="">
+  </div>
+   </section>
+   <!-- Home section ends -->
+
+    <!-- About section starts -->
+
+    <section class="About" id="About">
+      <div class="About-img">
+          <img src="./imgs/about2.jpg" alt="">
+      </div>
+      <div class="About-content">
+          <h2 class="heading">About  <span>us</span></h2>
+          <h3>zayBooks</h3>
+          <p>Welcome to zayBooks, your online heaven for all things literary! We are passionate book lovers dedicated to bringing you a carefully curated collection of books that inspire, educate, and entertain. Our goal is to create a vibrant community of readers who share our love for the written word.</p>
+        </div>
+        </section>
+
+<!-- book section start -->
+
+<section class="Books" id="Books">
+  <div class="product-content">
+    <h2>English Literature</h2>
+  </div>
+
+  <div class="Books-content">
+    <div class="row">
+      <img src="./imgs/read2.jfif" alt="To kill a Mockingbird">
+      <h4>To kill a Mockingbird</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('To Kill a Mockingbird', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/read4.jpg" alt="You've reached SAM">
+      <h4>You've reached SAM</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#"onclick="addToCart('You,ve reached SAM', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/runner.jpg" alt="The Kite Runner">
+      <h4>The Kite Runner</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('The Kite Runner', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/read3.jfif" alt="Twisted Games">
+      <h4>Twisted Games</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('Twisted Games', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/catcher.jpg" alt="The Catcher in the Rye">
+      <h4>The Catcher in the Rye</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('The catcher in the Rye', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/product.jpg" alt="one flew over the cukoos nest">
+      <h4>one flew over the cukoos nest</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('one flew over cukoos', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/hounds of bakker.jpg" alt="The hounds of the baskervilles">
+      <h4>The hounds of the baskervilles</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('The hounds of baskervilles', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/Atonement_(novel).jpg" alt="IAN McEwan Atonement">
+      <h4>IAN McEwan Atonement</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('IAN McEwan Atonement', 2.00)">Add to cart</a>
+      </div>
+    </div>
+  </div>
+
+<!-- urdu -->
+  <div class="product-content2">
+    <h2>Urdu Novels</h2>
+  </div>
+  <div class="Books-content">
+    <div class="row">
+      <img src="./imgs/Pir-e-kamil.webp" alt="Peer-e-Kamil">
+      <h4>Peer-e-Kamil</h4>
+      <h5>$3.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#"  onclick="addToCart('Peer-e-Kamil', 3.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/amarbail.jpg" alt="Amarbail">
+      <h4>Amarbail</h4>
+      <h5>$3.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#"  onclick="addToCart('Amarbail', 3.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/yaram.jfif" alt="yaram">
+      <h4>yaram</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#"  onclick="addToCart('ab-e-hayat', 3.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/ishq atish.jpg" alt="Ishq Atish">
+      <h4>Ishq Atish</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('Ishq Atish', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/namal.jfif" alt="Namal">
+      <h4>Namal</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('Namal', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/jaant.jpg" alt="Janat k Pattay">
+      <h4>Janat k Pattay</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('Janat k Patay', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/haaalim.jpg" alt="Haalim 1">
+      <h4>Haalim 1</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#"  onclick="addToCart('Haalim 1', 2.00)">Add to cart</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <img src="./imgs/halim2.jfif" alt="Haalim 2">
+      <h4>Haalim 2</h4>
+      <h5>$2.00</h5>
+      <div class="top">
+        <p>Hot</p>
+      </div>
+      <div class="btn">
+        <a href="#" onclick="addToCart('Haalim 2', 2.00)">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- books section end -->
+
+<!-- Contact section starts -->
+
+<section class="Contact" id="Contact">
+  <div class="contact-box">
+    <h4>MY ACCOUNT</h4>
+    <li><a href="#">My Account</a></li>
+    <li><a href="#">Wishlist</a></li>
+    <li><a href="#">Contact US</a></li>
+    <li><a href="#">Shopping cart</a></li>
+    <li><a href="#">My Account</a></li>
+  </div>
+
+
+  <div class="contact-box">
+    <h4>QUIK LINKS</h4>
+    <li><a href="#">fAQs</a></li>
+    <li><a href="#">My account</a></li>
+    <li><a href="#">Orders tracking</a></li>
+    <li><a href="#">Store Location</a></li>
+    <li><a href="#">About</a></li>
+  </div>
+
+  <div class="contact-box">
+    <h4>INFORMATION</h4>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">Terms & Condition</a></li>
+    <li><a href="#">Delivery</a></li>
+    <li><a href="#">Privacy& Policy</a></li>
+  </div>
+
+  <div class="contact-box">
+    <h4>CUSTOMER SERVICE</h4>
+    <li><a href="#">fAQs</a></li>
+    <li><a href="#">Help</a></li>
+    <li><a href="#">Return & Refund</a></li>
+    <li><a href="#">Store Location</a></li>
+    <li><a href="#">About</a></li>
+  </div>
+
+
+  <div class="contact-box">
+    <h4>FIAMA</h4>
+    <h5>Connect with Us</h5>
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-google-pay"></i></a>
+    </div>
+</section>
+<!-- contact section ends -->
+
+
+
+    <script src="pro.js"></script>
+</body>
+</html> 
